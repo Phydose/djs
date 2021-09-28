@@ -1,11 +1,11 @@
 const fs = require('fs')
 const glob = require("glob")
 let { FileManager } = require("../Functions/FileManager")
-let Count_Cmds = 1
-let Count_Aliases = 1
-let Count_Events = 1
-let Count_Buttons = 1
-let Count_SelectMenus = 1
+let Count_Cmds = 0
+let Count_Aliases = 0
+let Count_Events = 0
+let Count_Buttons = 0
+let Count_SelectMenus = 0
 
 let loadedEvents = []
 let loadedCmds = []
